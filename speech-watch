@@ -1,0 +1,2 @@
+#!/bin/bash
+soundmeter --trigger +211 1 --action exec --exec speech-input.sh
