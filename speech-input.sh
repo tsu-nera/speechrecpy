@@ -6,7 +6,7 @@ if [ -e $LOCK_FILE ]; then
 else
   echo $$ > $LOCK_FILE
   
-  python speech-input
+  python speech-input.py
 
   rm -f $LOCK_FILE 
 fi
